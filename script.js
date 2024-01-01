@@ -54,4 +54,4 @@ let date=document.querySelector('.date')
 let currentDate=new Date().toLocaleDateString()
 date.innerHTML=currentDate;
 
-localStorage.removeItem('data')
+// localStorage.removeItem('data')
